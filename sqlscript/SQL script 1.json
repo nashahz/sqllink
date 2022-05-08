@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "CREATE SCHEMA [SalesLT]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "nashahzsynsql4",
+				"poolName": "nashahzsynsql4"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

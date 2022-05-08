@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 2",
+	"properties": {
+		"content": {
+			"query": "SELECT count(*) \n FROM [SalesLT].[Product]\n\nSELECT * FROM [SalesLT].[Product]\n where productnumber ='FR-R92R-58'",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "nashahzsynsql4",
+				"poolName": "nashahzsynsql4"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
